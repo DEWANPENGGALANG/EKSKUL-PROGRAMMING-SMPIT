@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sejarah Indonesia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        .custom-brown {
+            background-color: #f5f0e6;
+        }
+        .nav-active {
+            border-bottom: 3px solid #c53030;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body class="bg-white">
+    <!-- Header/Navigation -->
+    <header class="bg-red-600 shadow-md">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex justify-between items-center">
+                <h1 class="text-2xl font-bold text-white">Sejarah Indonesia</h1>
+                <nav class="hidden md:block">
+                    <ul class="flex space-x-6">
+                      
+                    </ul>
+                </nav>
+                <button class="md:hidden text-white focus:outline-none" id="mobile-menu-button">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+            <!-- Mobile menu -->
+            <div class="md:hidden hidden py-2" id="mobile-menu">
+                <ul class="flex flex-col space-y-2">
+                    <li><a href="#beranda" class="block text-white hover:text-gray-200 py-2 px-1 transition duration-300">Beranda</a></li>
+                    <li><a href="#tentang" class="block text-white hover:text-gray-200 py-2 px-1 transition duration-300">Tentang Indonesia</a></li>
+                    <li><a href="#sejarah" class="block text-white hover:text-gray-200 py-2 px-1 transition duration-300">Sejarah</a></li>
+                    <li><a href="https://id.wikipedia.org/wiki/Sejarah_Indonesia" target="_blank" class="block text-white hover:text-gray-200 py-2 px-1 transition duration-300">Wikipedia</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-8">
+        <!-- Beranda Section -->
+        <section id="beranda" class="mb-16">
+            <div class="custom-brown rounded-lg p-8 mb-8">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Selamat Datang</h2>
+                <p class="text-gray-700 leading-relaxed">
+                    Selamat datang di portal informasi "Sejarah Indonesia". Website ini menyajikan gambaran singkat tentang Indonesia dan sejarahnya yang kaya. 
+                    Mari kita eksplorasi bersama warisan budaya dan perjalanan bangsa Indonesia dari masa ke masa.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-3">Tentang Indonesia</h3>
+                        <p class="text-gray-600 mb-4">Pelajari lebih lanjut tentang negara kepulauan terbesar di dunia dengan keanekaragaman budaya yang luar biasa.</p>
+                        <a href="https://id.wikipedia.org/wiki/Sejarah_Indonesia" target="_blank" class="text-amber-800 mb-4">Baca selengkapnya →</a></li>
+                    </div>
+                </div>
+                <div class="bg-white shadow-md rounded-lg overflow-hidden">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-3">Sejarah Indonesia</h3>
+                        <p class="text-gray-600 mb-4">Temukan perjalanan panjang bangsa Indonesia dari zaman prasejarah hingga kemerdekaan dan perkembangan modern.</p>
+                        <a href="https://id.wikipedia.org/wiki/Sejarah_Indonesia" target="_blank" class="text-amber-800 mb-4">Baca selengkapnya →</a></li>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tentang Indonesia Section -->
+        <section id="tentang" class="mb-16 pt-8">
+            <div class="flex items-center mb-8">
+                <div class="h-1 w-12 bg-red-600 mr-4"></div>
+                <h2 class="text-3xl font-bold text-gray-800">Tentang Indonesia</h2>
+            </div>
+            <div class="bg-white shadow-md rounded-lg p-8">
+                <p class="text-gray-700 leading-relaxed">
+                    Indonesia adalah negara kepulauan terbesar di dunia yang terdiri dari lebih dari 17.000 pulau, dengan populasi lebih dari 270 juta jiwa. 
+                    Terletak di Asia Tenggara, Indonesia dikenal dengan keanekaragaman budaya, bahasa, dan agama. 
+                    Negara ini memiliki kekayaan alam yang melimpah dan merupakan salah satu negara dengan keanekaragaman hayati tertinggi di dunia.
+                </p>
+            </div>
+        </section>
+
+        <!-- Sejarah Section -->
+        <section id="sejarah" class="mb-16 pt-8">
+            <div class="flex items-center mb-8">
+                <div class="h-1 w-12 bg-red-600 mr-4"></div>
+                <h2 class="text-3xl font-bold text-gray-800">Sejarah Indonesia</h2>
+            </div>
+            <div class="bg-white shadow-md rounded-lg p-8">
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    Sejarah Indonesia dapat ditelusuri kembali ke zaman prasejarah dengan ditemukannya fosil "Manusia Jawa" yang berusia sekitar 1,7 juta tahun. 
+                    Pada abad ke-4 hingga ke-7, kerajaan-kerajaan Hindu-Buddha seperti Kutai, Tarumanagara, dan Sriwijaya mulai berkembang. 
+                    Kemudian muncul kerajaan-kerajaan besar seperti Majapahit (1293-1500) yang mencapai puncak kejayaannya di bawah pemerintahan Hayam Wuruk.
+                </p>
+                <p class="text-gray-700 leading-relaxed mb-6">
+                    Pada awal abad ke-16, bangsa Eropa mulai datang ke Nusantara, dimulai oleh Portugis, kemudian disusul oleh Spanyol, Belanda, dan Inggris. 
+                    Belanda akhirnya mendominasi dan menjajah Indonesia selama sekitar 350 tahun. Setelah melalui perjuangan panjang, Indonesia memproklamasikan kemerdekaannya pada 17 Agustus 1945.
+                </p>
+                <p class="text-gray-700 leading-relaxed">
+                    Era kemerdekaan diwarnai dengan berbagai tantangan termasuk upaya mempertahankan kedaulatan, transisi politik, dan pembangunan ekonomi. 
+                    Saat ini, Indonesia telah berkembang menjadi negara demokrasi terbesar ketiga di dunia dengan ekonomi yang terus tumbuh.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-100 py-6">
+        <div class="container mx-auto px-4 text-center">
+            <p class="text-gray-600">© 2025 Sejarah Indonesia</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuButton.addEventListener('click', function() {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+
+                // Close mobile menu if open
+                if (!mobileMenu.classList.contains('hidden')) {
+                    mobileMenu.classList.add('hidden');
+                }
+            });
+        });
+
+        // Highlight active navigation
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('nav a');
+
+        window.addEventListener('scroll', function() {
+            let current = '';
+            
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                
+                if (pageYOffset >= (sectionTop - 100)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('nav-active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('nav-active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
